@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f5f5dc, #f8e8d3);
+    color: #5a5a5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    width: 340px;
+    text-align: center;
+    position: relative;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.socials {
+    margin-top: 15px;
+}
+
+.socials a {
+    margin: 0 10px;
+    text-decoration: none;
+    background: #d8a47f;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.socials a img {
+    width: 24px;
+    height: 24px;
+    filter: grayscale(1) brightness(1.2) sepia(0.5) hue-rotate(-20deg) saturate(1.5);
+}
+
+.socials a:hover {
+    background: #c48a6e;
+}
+
+.resume {
+    margin-top: 20px;
+}
+
+.resume a {
+    text-decoration: none;
+    color: #fff;
+    background: #a87d58;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.resume a:hover {
+    background: #8a6747;
+}
+
+.decoration {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #f5e0c3;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.decoration.one {
+    top: -15px;
+    left: -15px;
+}
+
+.decoration.two {
+    bottom: -15px;
+    right: -15px;
+}
