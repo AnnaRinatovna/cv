@@ -1,3 +1,4 @@
+/* Сброс стандартных отступов */
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +45,7 @@ p {
     line-height: 1.5;
 }
 
+/* Социальные сети */
 .socials {
     margin-top: 15px;
 }
@@ -68,25 +70,32 @@ p {
     background: #c48a6e;
 }
 
+/* Кнопка "Скачать резюме" */
 .resume {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.resume a {
-    text-decoration: none;
-    color: #fff;
+.resume button {
     background: #a87d58;
+    color: #fff;
+    border: none;
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 1rem;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.2s;
+    cursor: pointer;
     display: inline-block;
+    width: auto;
 }
 
-.resume a:hover {
+.resume button:hover {
     background: #8a6747;
+    transform: scale(1.05);
 }
 
+/* Декоративные кружочки */
 .decoration {
     position: absolute;
     width: 30px;
